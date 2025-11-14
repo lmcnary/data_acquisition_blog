@@ -1,24 +1,21 @@
 ---
-title: "Welcome to My Data Science Portfolio"
+title: "Texas Universities and Colleges"
 ---
 
-# Hello! I'm [Your Name] 👋
+# Introduction
+words
 
-Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you'll find projects that demonstrate what I've learned and discovered.
+## Motivation
 
-## 🎓 About This Portfolio
 
-This portfolio shows my work learning data science. Each project includes:
+## Summary
 
-- My code with documentation
-- Visualizations I created
-- What I learned and discovered
-
-I built this site using [Quarto](https://quarto.org/) and host it on [GitHub Pages](https://pages.github.com/).
-
-## 🛠️ Skills I'm Learning
-
-- **Programming**: Python, Pandas for data analysis
+```python
+import pandas as pd
+url = "https://en.wikipedia.org/wiki/List_of_men%27s_footballers_with_100_or_more_international_caps?utm_source=chatgpt.com"
+tables = pd.read_html(url)
+print(tables)
+```
 - **Visualization**: Creating charts with Matplotlib and Seaborn
 - **Data Collection**: Getting data from files, websites, and APIs
 - **Analysis**: Finding patterns and answering questions with data
